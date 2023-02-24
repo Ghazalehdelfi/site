@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Link } from "@mui/material";
 import homepageImage from "../assets/homepage-code.png";
 import colors from "../assets/colors";
 
@@ -84,7 +84,13 @@ const Home = () => {
                 fill: colors.lightShade,
               }}
             />
-            GhazalehDelfi@gmail.com
+            <Link
+              href="mailto: GhazalehDelfi@gmail.com"
+              underline="none"
+              sx={{ color: colors.lightShade }}
+            >
+              GhazalehDelfi@gmail.com
+            </Link>
           </Typography>
           <Typography
             sx={{
@@ -102,8 +108,14 @@ const Home = () => {
                 marginRight: "20px",
                 fill: colors.lightShade,
               }}
-            />{" "}
-            github.com/Ghazalehdelfi
+            />
+            <Link
+              href="https://www.github.com/Ghazalehdelfi"
+              underline="none"
+              sx={{ color: colors.lightShade }}
+            >
+              github.com/Ghazalehdelfi
+            </Link>
           </Typography>
           <Typography
             sx={{
@@ -122,7 +134,13 @@ const Home = () => {
                 fill: colors.lightShade,
               }}
             />
-            linkedin.com/in/ghazalehdelfi/
+            <Link
+              href="https://www.linkedin.com/in/ghazalehdelfi/"
+              underline="none"
+              sx={{ color: colors.lightShade }}
+            >
+              linkedin.com/in/ghazalehdelfi/
+            </Link>
           </Typography>
         </Box>
         <img src={homepageImage} />
