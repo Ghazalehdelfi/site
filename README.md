@@ -1,6 +1,7 @@
 # About
 
 This is the code used for my personal website, which you can find here: [delfig.dev](https://delfig.dev)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
